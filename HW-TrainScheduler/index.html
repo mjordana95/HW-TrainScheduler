@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Train Scheduler</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+   
+  </script> 
+  <script type="text/javascript" src="javascript/app.js"></script>
+
+
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>All Aboard! What Time Is The Train Pulling Out The Station?</h1>
+  </div>
+  <div class="conatiner">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <form>
+          <div class="form-group">
+            <label for="Employee Name">Train Name</label>
+            <input type="text" class="form-control" id="Name" aria-describedby="name" placeholder="Train">
+          </div>
+          <div class="form-group">
+            <label for="Role">Destination</label>
+            <input type="text" class="form-control" id="Destination" placeholder="Your Destination">
+          </div>
+          <div class="form-group">
+            <label for="Role">Frequency</label>
+            <input type="text" class="form-control" id="startDate" placeholder="How frequently does this train leave">
+          </div>
+          <div class="form-group">
+            <label for="Rate">Next Arrival</label>
+            <input type="text" class="form-control" id="Rate" placeholder="What time does this train come next">
+          </div>
+          <div class="form-group">
+            <label for="Rate">Minutes Away</label>
+            <input type="text" class="form-control" id="Rate" placeholder="How long until this train arrives">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="table-responsive">
+      <table class="table table-hover" style="width:100%" id="employeeData">
+        <tr>
+          <th>Train Name</th>
+          <th>Destination</th>
+          <th>Frequency</th>
+          <th>Next Arrival</th>
+          <th>Minutes Away</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+</body>
